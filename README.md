@@ -28,6 +28,7 @@ CREATE DATABASE agriculture;
  mysql -u username -p agriculture < user.sql
  mysql -u username -p agriculture < device.sql
  mysql -u username -p agriculture < userdevice.sql
+ mysql -u username -p agriculture < usercrop.sql
  mysql -u username -p agriculture < sensor_data.sql
  ### 2.MySql账户替换
 打开后端项目中的 src/main/resources/application.properties 文件，

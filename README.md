@@ -39,7 +39,16 @@ your_password：替换为您的 MySQL 密码。
  ### 3. 启动后端服务
 构建并启动后端应用：
 
-确保你已经安装了 Java 17 和 Maven，然后进入后端项目根目录，执行以下命令启动项目：
+确保已经安装了 Java 17 和 Maven，然后进入后端项目根目录，执行以下命令启动项目：
+mvn install
+### 4.启动前端
 
+前端部分使用 Vue3 和 Element-Plus，请确保你已经安装了 Node.js 和 npm。在前端项目目录下执行以下命令启动前端：
+
+安装依赖：
+npm install
+启动前端应用：
+npm run serve
+在浏览器中访问：http://localhost:8081 来查看前端页面。
 
 
